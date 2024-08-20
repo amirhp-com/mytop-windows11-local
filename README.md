@@ -25,11 +25,16 @@ Once your Linux distribution is set up:
 1. **Update your package list**:
    ```bash
    sudo apt-get update
+   // OR //
+   sudo apt list --upgradable
+   sudo apt upgrade
    ```
 
 2. **Install `mytop`**:
    ```bash
    sudo apt-get install mytop
+   // OR //
+   sudo apt install mytop
    ```
 
 ### 3. **Connect to Local by Flywheel MySQL Database**
